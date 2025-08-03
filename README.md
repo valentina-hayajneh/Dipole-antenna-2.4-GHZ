@@ -55,6 +55,3 @@ The dipole is oriented along the **Y-axis** in the simulation environment, which
 Thank you for reviewing this project!  
 Feel free to contact me for further information or collaboration.
 
-
-Thank you for reviewing this project!  
-Feel free to contact me for further information or collaboration.
