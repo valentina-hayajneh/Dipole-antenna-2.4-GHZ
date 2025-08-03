@@ -1,4 +1,5 @@
 # Dipole Antenna Design and Simulation at 2.4 GHz
+<img width="1169" height="736" alt="Screenshot 2025-08-03 155738" src="https://github.com/user-attachments/assets/1631f0bd-feba-4cf2-b15b-e07a772f7f14" />
 
 ## Project Overview
 
