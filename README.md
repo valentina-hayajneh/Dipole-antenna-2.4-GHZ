@@ -21,6 +21,7 @@ An optimization process was carried out to determine the best length reduction f
 **VSWR (Voltage Standing Wave Ratio):**  
 
   Describes the efficiency of power transfer from the source to the antenna. A VSWR value of 1.0 is ideal. Values below 2.0 are generally acceptable.
+  
 <img width="827" height="555" alt="image" src="https://github.com/user-attachments/assets/e29b4eac-ec9e-4e82-bee4-2d5dbca9620b" />
 
 ### Realized Gain
