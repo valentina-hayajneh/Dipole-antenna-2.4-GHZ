@@ -93,7 +93,8 @@ To validate the effectiveness of the designed antenna, a direct comparison was m
 <img width="1141" height="542" alt="image" src="https://github.com/user-attachments/assets/f14d85f5-a2a4-4c28-b944-b462b6f98720" />
 *Figure 9: Performance comparison between the simulated dipole and a commercial antenna across key parameters.*
 
-
+## Summary
+This project successfully designed and simulated a half-wave dipole antenna at 2.4 GHz using HFSS. The antenna length was optimized to 85% of the half-wavelength, achieving good impedance matching with low return loss and VSWR below 1.5. The realized gain is about 2.15 dBi, with typical radiation patterns and strong vertical linear polarization. The results closely match those of a commercial antenna, confirming the design's effectiveness.
 
 
 
