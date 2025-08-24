@@ -90,7 +90,8 @@ The polarization plot shows the antenna radiation is **linearly polarized**, as 
 ### Benchmark Comparison
 
 To validate the effectiveness of the designed antenna, a direct comparison was made with a commercial half-wave dipole antenna. The following table summarizes the key performance parameters of both antennas, including frequency range, impedance, VSWR, radiation pattern, and polarization. This comparison shows that the designed antenna achieves performance closely aligned with the commercial product.
-<img width="1141" height="542" alt="image" src="https://github.com/user-attachments/assets/f14d85f5-a2a4-4c28-b944-b462b6f98720" />
+<img width="1144" height="544" alt="image" src="https://github.com/user-attachments/assets/33a18deb-a331-4673-86de-02ef50999836" />
+
 *Figure 9: Performance comparison between the simulated dipole and a commercial antenna across key parameters.*
 
 ## Summary
