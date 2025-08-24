@@ -11,7 +11,8 @@
  
 ## Geometrical Parameters 
 
-The dipole antenna consists of two cylindrical metallic arms, separated by a 1.2 mm gap. The total length of the dipole (including both arms and the gap) is approximately 54.26 mm, which corresponds to 85% of a half-wavelength at 2.35 GHz (to account for practical effects like end loading and arm thickness). The arms are not equal in length: the upper arm measures approximately 23.68 mm and the lower arm 29.38 mm. The dipole is centered approximately near the origin, with a slight asymmetry due to the unequal arms 
+The dipole antenna consists of two cylindrical metallic arms, separated by a 1.2 mm gap. The total length of the dipole (including both arms and the gap) is approximately 54.26 mm, which corresponds to 85% of a half-wavelength at 2.35 GHz (to account for practical effects like end loading and arm thickness). The arms are not equal in length: the upper arm measures approximately 23.68 mm and the lower arm 29.38 mm. The dipole is centered approximately near the origin, with a slight asymmetry due to the unequal arms
+
 <img width="368" height="571" alt="image" src="https://github.com/user-attachments/assets/6f5b8378-95ef-4ef2-bc49-bf69232863d3" />
 
 *Figure 1: 3D geometry of the half-wave dipole antenna showing the two metallic arms and the feed gap of 1.2 mm.*
