@@ -9,7 +9,7 @@ The dipole antenna consists of two cylindrical metallic arms, separated by a 1.2
 
 *Figure 1: 3D geometry of the half-wave dipole antenna showing the two metallic arms and the feed gap of 1.2 mm.*
 
----
+
 
 ## Optimization Process
 An optimization process was carried out to determine the best length reduction factor that would yield performance closely matching that of the commercial dipole antenna used as a benchmark. After several simulation iterations and parameter sweeps, the optimal factor was found to be 0.85 of the half-wavelength at the center frequency of 2.35 GHz. This choice led to improved impedance matching and reduced reflection (return loss).
@@ -27,7 +27,7 @@ An optimization process was carried out to determine the best length reduction f
 
 *Figure 3: Return Loss (S11) curve showing a minimum below -15 dB at 2.4 GHz, indicating excellent impedance matching.*
 
----
+
 
 **VSWR (Voltage Standing Wave Ratio):**  
 
@@ -37,7 +37,7 @@ An optimization process was carried out to determine the best length reduction f
 
 *Figure 4: VSWR curve with values below 1.5 across the operating band, confirming efficient power transfer.*
 
----
+
 
 ### Realized Gain
 
@@ -46,7 +46,7 @@ The realized gain represents the antenna gain including losses due to mismatch a
 
 *Figure 5: 3D realized gain pattern of the antenna, showing a peak gain of approximately 2.15 dBi.*
 
----
+
 
 ## Radiation Pattern Analysis
 
@@ -59,7 +59,7 @@ The azimuth radiation pattern demonstrates how the antenna radiates power around
 
 *Figure 6: Azimuth (horizontal) radiation pattern displaying an almost omnidirectional response.*
 
----
+
 
 ### Radiation Pattern - Elevation
 
@@ -68,7 +68,7 @@ The elevation pattern shows the radiation distribution vertically. It clearly ex
 
 *Figure 7: Elevation (vertical) radiation pattern showing the expected figure-eight shape typical of dipole antennas.*
 
----
+
 
 ### Polarization
 
