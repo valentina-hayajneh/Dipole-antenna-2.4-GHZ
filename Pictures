@@ -1,66 +1,14 @@
-# 📷 Dipole Antenna - Simulation Images
+# Pictures File for Project
 
-This document contains all the simulation and analysis images related to the 2.4 GHz dipole antenna design, along with short descriptions.
-
----
-
-### 🖼️ Figure 1: 3D Geometry of the Antenna
-
-![3D Geometry](./Pictures/geometry_3d.png)  
-*The dipole consists of two metallic arms with a 1.2 mm gap.*
-
----
-
-### 🖼️ Figure 2: Optimization Process
-
-![Optimization Process](./Pictures/optimization_process.png)  
-*Parameter sweep and tuning for optimal dipole length.*
-
----
-
-### 🖼️ Figure 3: Return Loss (S11)
-
-![S11 Plot](./Pictures/s11_plot.png)  
-*Excellent impedance matching shown at 2.4 GHz with S11 below -15 dB.*
-
----
-
-### 🖼️ Figure 4: VSWR
-
-![VSWR Plot](./Pictures/vswr_plot.png)  
-*VSWR < 1.5 across the band indicating low reflected power.*
-
----
-
-### 🖼️ Figure 5: 3D Realized Gain
-
-![Gain 3D](./Pictures/gain_3d.png)  
-*Maximum gain observed around 2.15 dBi, consistent with typical dipole antennas.*
-
----
-
-### 🖼️ Figure 6: Radiation Pattern - Azimuth
-
-![Azimuth Pattern](./Pictures/radiation_azimuth.png)  
-*Omnidirectional pattern around the horizontal plane.*
-
----
-
-### 🖼️ Figure 7: Radiation Pattern - Elevation
-
-![Elevation Pattern](./Pictures/radiation_elevation.png)  
-*Characteristic figure-eight pattern in the vertical plane.*
-
----
-
-### 🖼️ Figure 8: Polarization
-
-![Polarization](./Pictures/polarization.png)  
-*Strong linear polarization along Z-axis confirmed by dominant E-field component.*
-
----
-
-### 🖼️ Figure 9: Benchmark Comparison
-
-![Benchmark Comparison](./Pictures/benchmark_comparison.png)  
-*Table comparing key parameters of the simulated dipole vs a commercial reference antenna.*
+| Figure | Description                                                   | Image                                                                                  |
+|--------|---------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| 0      | Specification sheet of the commercial dipole antenna          | ![Figure 0](https://github.com/user-attachments/assets/4afe511c-6176-42c4-8f23-52fe1fce11db) |
+| 1      | 3D geometry of the half-wave dipole antenna                    | ![Figure 1](https://github.com/user-attachments/assets/6f5b8378-95ef-4ef2-bc49-bf69232863d3) |
+| 2      | Simulation setup and optimization sweep                        | ![Figure 2](https://github.com/user-attachments/assets/eba0720b-b8ff-4343-b236-2639f505b6e8) |
+| 3      | Return Loss (S11) curve showing excellent impedance matching   | ![Figure 3](https://github.com/user-attachments/assets/966e43ee-49d2-4bcb-9012-0f9dc72fba55) |
+| 4      | VSWR curve confirming efficient power transfer                 | ![Figure 4](https://github.com/user-attachments/assets/e29b4eac-ec9e-4e82-bee4-2d5dbca9620b) |
+| 5      | 3D realized gain pattern showing peak gain                     | ![Figure 5](https://github.com/user-attachments/assets/048e7c54-e7ce-42e2-8690-a4014e3726a3) |
+| 6      | Azimuth radiation pattern displaying omnidirectional response | ![Figure 6](https://github.com/user-attachments/assets/9b617e69-ebb2-4f0f-8bba-dbce6b73bbf1) |
+| 7      | Elevation radiation pattern showing figure-eight shape         | ![Figure 7](https://github.com/user-attachments/assets/e4617f03-f75c-4f0f-88bc-30f636afe80a) |
+| 8      | Electric field components indicating linear polarization       | ![Figure 8](https://github.com/user-attachments/assets/d0d280d9-3cdb-492d-8a51-acaa7604a728) |
+| 9      | Performance comparison between simulated dipole and commercial | ![Figure 9](https://github.com/user-attachments/assets/f14d85f5-a2a4-4c28-b944-b462b6f98720) |
