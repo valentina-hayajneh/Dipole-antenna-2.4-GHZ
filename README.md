@@ -48,6 +48,11 @@ The elevation pattern shows the radiation distribution vertically. It clearly ex
 The polarization plot shows the antenna radiation is **linearly polarized**, as one electric field component dominates strongly over the others. The main component is along the Z-axis (approximately 9.7 V), while other components are negligible (< 0.02 V), confirming **vertical linear polarization** of the antenna.
 <img width="1403" height="399" alt="image" src="https://github.com/user-attachments/assets/d0d280d9-3cdb-492d-8a51-acaa7604a728" />
 
+### Benchmark Comparison
+
+To validate the effectiveness of the designed antenna, a direct comparison was made with a commercial half-wave dipole antenna. The following table summarizes the key performance parameters of both antennas, including frequency range, impedance, VSWR, radiation pattern, and polarization. This comparison shows that the designed antenna achieves performance closely aligned with the commercial product.
+<img width="1141" height="542" alt="image" src="https://github.com/user-attachments/assets/f14d85f5-a2a4-4c28-b944-b462b6f98720" />
+
 
 
 
