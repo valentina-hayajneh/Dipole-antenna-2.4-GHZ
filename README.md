@@ -1,7 +1,6 @@
 ## Project Overview 
 
-The **half-wave dipole** is one of the simplest and most widely used antennas in wireless communications, valued for both its ease of design and strong performance. This project focuses on designing and simulating a half-wave dipole antenna at 2.4 GHz with specific performance requirements. To validate the results, the simulated design is benchmarked against a commercially available half-wave dipole antenna,URL: https://southwestantennas.com/products/omni-antennas/omni-antenna-22-25-ghz-215-dbi-internal-bandpass-filter
-<img width="1407" height="591" alt="image" src="https://github.com/user-attachments/assets/bc469aa2-dc58-466c-a9ae-8d8b6772233b" />
+The **half-wave dipole** is one of the simplest and most widely used antennas in wireless communications, valued for both its ease of design and strong performance. This project focuses on designing and simulating a half-wave dipole antenna at 2.4 GHz with specific performance requirements. To validate the results, the simulated design is benchmarked against a commercially available half-wave dipole antenna ([URL](https://southwestantennas.com/products/omni-antennas/omni-antenna-22-25-ghz-215-dbi-internal-bandpass-filter)).
 
 ## Geometrical Parameters 
 
