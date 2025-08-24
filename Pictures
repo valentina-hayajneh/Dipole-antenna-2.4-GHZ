@@ -1,0 +1,66 @@
+# 📷 Dipole Antenna - Simulation Images
+
+This document contains all the simulation and analysis images related to the 2.4 GHz dipole antenna design, along with short descriptions.
+
+---
+
+### 🖼️ Figure 1: 3D Geometry of the Antenna
+
+![3D Geometry](./Pictures/geometry_3d.png)  
+*The dipole consists of two metallic arms with a 1.2 mm gap.*
+
+---
+
+### 🖼️ Figure 2: Optimization Process
+
+![Optimization Process](./Pictures/optimization_process.png)  
+*Parameter sweep and tuning for optimal dipole length.*
+
+---
+
+### 🖼️ Figure 3: Return Loss (S11)
+
+![S11 Plot](./Pictures/s11_plot.png)  
+*Excellent impedance matching shown at 2.4 GHz with S11 below -15 dB.*
+
+---
+
+### 🖼️ Figure 4: VSWR
+
+![VSWR Plot](./Pictures/vswr_plot.png)  
+*VSWR < 1.5 across the band indicating low reflected power.*
+
+---
+
+### 🖼️ Figure 5: 3D Realized Gain
+
+![Gain 3D](./Pictures/gain_3d.png)  
+*Maximum gain observed around 2.15 dBi, consistent with typical dipole antennas.*
+
+---
+
+### 🖼️ Figure 6: Radiation Pattern - Azimuth
+
+![Azimuth Pattern](./Pictures/radiation_azimuth.png)  
+*Omnidirectional pattern around the horizontal plane.*
+
+---
+
+### 🖼️ Figure 7: Radiation Pattern - Elevation
+
+![Elevation Pattern](./Pictures/radiation_elevation.png)  
+*Characteristic figure-eight pattern in the vertical plane.*
+
+---
+
+### 🖼️ Figure 8: Polarization
+
+![Polarization](./Pictures/polarization.png)  
+*Strong linear polarization along Z-axis confirmed by dominant E-field component.*
+
+---
+
+### 🖼️ Figure 9: Benchmark Comparison
+
+![Benchmark Comparison](./Pictures/benchmark_comparison.png)  
+*Table comparing key parameters of the simulated dipole vs a commercial reference antenna.*
