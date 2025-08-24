@@ -1,63 +1,54 @@
-# Dipole Antenna Design and Simulation at 2.4 GHz
-<img width="1169" height="736" alt="Screenshot 2025-08-03 155738" src="https://github.com/user-attachments/assets/1631f0bd-feba-4cf2-b15b-e07a772f7f14" />
+## Project Overview 
 
-## Project Overview
+The **half-wave dipole** is one of the simplest and most widely used antennas in wireless communications, valued for both its ease of design and strong performance. This project focuses on designing and simulating a half-wave dipole antenna at 2.4 GHz with specific performance requirements. To validate the results, the simulated design is benchmarked against a commercially available half-wave dipole antenna,URL: https://southwestantennas.com/products/omni-antennas/omni-antenna-22-25-ghz-215-dbi-internal-bandpass-filter
+<img width="1407" height="591" alt="image" src="https://github.com/user-attachments/assets/bc469aa2-dc58-466c-a9ae-8d8b6772233b" />
 
-This repository presents my personal work on the design, simulation, and analysis of a **half-wave dipole antenna** operating at 2.4 GHz, suitable for wireless applications such as Wi‑Fi and Bluetooth. The model and simulations were performed entirely using **Ansys HFSS 2024 R2**. The project’s objectives include:
+## Geometrical Parameters 
 
-- Designing an efficient dipole antenna tuned for 2.4 GHz.
-- Evaluating key performance metrics: return loss (S₁₁), radiation pattern, gain, and electric field distribution.
-- Demonstrating consistent performance both in the frequency domain and spatial domain.
+The dipole antenna consists of two cylindrical metallic arms, separated by a 1.2 mm gap. The total length of the dipole (including both arms and the gap) is approximately 54.26 mm, which corresponds to 85% of a half-wavelength at 2.35 GHz (to account for practical effects like end loading and arm thickness). The arms are not equal in length: the upper arm measures approximately 23.68 mm and the lower arm 29.38 mm. The dipole is centered approximately near the origin, with a slight asymmetry due to the unequal arms 
+<img width="368" height="571" alt="image" src="https://github.com/user-attachments/assets/6f5b8378-95ef-4ef2-bc49-bf69232863d3" />
 
-
-## Geometrical Parameters
-
-The dipole antenna is composed of two identical metallic cylindrical arms, each approximately 59.44 mm long (about a quarter-wavelength at 2.4 GHz), with a radius of 2.08183 mm. The dipole is centered at coordinates (0, 0, –30 mm), effectively placing the midpoint of the antenna at the origin. The arms extend symmetrically along the Z‑axis. There is no segmentation applied (i.e. one continuous cylinder per arm). This layout ensures the total dipole length is very close to λ/2.
-
-
-## Design Description
-
-The antenna is a **classic half-wave dipole**, consisting of two identical conductive cylindrical arms separated by a small feed gap. The length of each arm corresponds roughly to one-quarter wavelength at 2.4 GHz, giving a total dipole length close to half the wavelength.
-
-The simplicity of the dipole design makes it an ideal benchmark antenna with:
-- **Omnidirectional radiation** in the azimuthal plane.
-- Predictable and stable gain characteristics.
-- Good impedance matching when properly designed and fed.
-
-The dipole is oriented along the **Y-axis** in the simulation environment, which aligns with conventional practice for analyzing radiation characteristics.
-
-
+## Optimization Process
+An optimization process was carried out to determine the best length reduction factor that would yield performance closely matching that of the commercial dipole antenna used as a benchmark. After several simulation iterations and parameter sweeps, the optimal factor was found to be 0.85 of the half-wavelength at the center frequency of 2.35 GHz. This choice led to improved impedance matching and reduced reflection (return loss).
+<img width="1030" height="577" alt="image" src="https://github.com/user-attachments/assets/eba0720b-b8ff-4343-b236-2639f505b6e8" />
 
 ## Importance of Each Simulation Result
 
-### 1️ Dipole Antenna Geometry (3D Model)  
-- Visualizes the antenna’s physical structure and dimensions.  
-- Ensures geometry matches design specifications, impacting resonance and radiation.
+**Return Loss (S11):**  
+  Indicates how much power is reflected back from the antenna input. A value below -10 dB typically suggests good matching, and values below -15 dB are excellent.
+<img width="892" height="570" alt="image" src="https://github.com/user-attachments/assets/966e43ee-49d2-4bcb-9012-0f9dc72fba55" />
 
-### 2️ Radiation Pattern Visualization (3D)  
-- Shows how the antenna radiates energy spatially.  
-- Confirms the classic toroidal radiation shape with nulls along the dipole axis.
+**VSWR (Voltage Standing Wave Ratio):**  
 
-### 3️ S-Parameter (Return Loss) Plot  
-- Indicates antenna impedance matching efficiency.  
-- A deep return loss dip (~ –14.7 dB) at 2.0 GHz confirms minimal power reflection.  
+  Describes the efficiency of power transfer from the source to the antenna. A VSWR value of 1.0 is ideal. Values below 2.0 are generally acceptable.
+<img width="827" height="555" alt="image" src="https://github.com/user-attachments/assets/e29b4eac-ec9e-4e82-bee4-2d5dbca9620b" />
 
-### 4️ Gain Polar Plot vs Phi  
-- Displays antenna gain stability across azimuth angles.  
-- Confirms nearly omnidirectional radiation in the horizontal plane.
+### Realized Gain
 
-### 5️ 3D Gain Plot (Gain Distribution)  
-- Spatially visualizes antenna gain and main radiation lobes.  
-- Helps identify the strongest radiation directions.
+The realized gain represents the antenna gain including losses due to mismatch and efficiency factors, providing a realistic measure of the antenna's ability to direct energy in space. The 3D gain plot below shows a maximum realized gain of approximately **2.15 dBi**, which is consistent with typical half-wave dipole performance.
+<img width="752" height="537" alt="image" src="https://github.com/user-attachments/assets/048e7c54-e7ce-42e2-8690-a4014e3726a3" />
 
-### 6️ Electric Field Distribution Plot (rE Components)  
-- Shows the distribution and magnitude of electric field components.  
-- Dominant components reveal antenna polarization characteristics.
+## Radiation Pattern Analysis
 
-### 7️ Gain Plot 4 (Polar Gain at Theta=90°)  
-- Detailed gain variation at a fixed elevation angle.  
-- Validates consistent gain performance around 2.4 GHz.
+The radiation characteristics of the designed half-wave dipole antenna were analyzed in detail, including its gain distribution, radiation patterns in azimuth and elevation planes, and polarization behavior.
 
----
+### Radiation Pattern - Azimuth
 
-Thank you for reviewing my work. Feel free to reach out if you'd like more information or contextual details.
+The azimuth radiation pattern demonstrates how the antenna radiates power around the horizontal plane. The plot indicates a nearly omnidirectional pattern in the azimuth plane, with uniform gain close to 2 dBi across all angles.
+<img width="739" height="581" alt="image" src="https://github.com/user-attachments/assets/9b617e69-ebb2-4f0f-8bba-dbce6b73bbf1" />
+
+### Radiation Pattern - Elevation
+
+The elevation pattern shows the radiation distribution vertically. It clearly exhibits the expected dipole shape with two main lobes and nulls at 0° and 180°, confirming the characteristic figure-eight pattern.
+<img width="737" height="542" alt="image" src="https://github.com/user-attachments/assets/e4617f03-f75c-4f0f-88bc-30f636afe80a" />
+
+### Polarization
+
+The polarization plot shows the antenna radiation is **linearly polarized**, as one electric field component dominates strongly over the others. The main component is along the Z-axis (approximately 9.7 V), while other components are negligible (< 0.02 V), confirming **vertical linear polarization** of the antenna.
+<img width="1403" height="399" alt="image" src="https://github.com/user-attachments/assets/d0d280d9-3cdb-492d-8a51-acaa7604a728" />
+
+
+
+
+
+
