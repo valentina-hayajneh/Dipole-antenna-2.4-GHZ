@@ -1,6 +1,9 @@
 ## Project Overview 
 
  The half-wave dipole is one of the simplest and most widely used antennas in wireless communications, appreciated for both its ease of design and strong performance. This project focuses on designing and simulating a half-wave dipole antenna at 2.4 GHz with specific performance requirements using the High Frequency Structure Simulator (HFSS). To validate the results, the simulated design is benchmarked against a commercially available half-wave dipole antenna([URL](https://southwestantennas.com/products/omni-antennas/omni-antenna-22-25-ghz-215-dbi-internal-bandpass-filter)).
+ <img width="1258" height="575" alt="image" src="https://github.com/user-attachments/assets/4afe511c-6176-42c4-8f23-52fe1fce11db" />
+
+*Figure 0: Specification sheet of the commercial dipole antenna (2.2–2.5 GHz, Gain: 2.15 dBi, VSWR < 2:1, Vertical polarization).*
  
 ## Geometrical Parameters 
 
